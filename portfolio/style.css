@@ -1,0 +1,99 @@
+body {
+    background-image: url('supernova.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    margin: 0;
+}
+
+.sidebar {
+    position: fixed;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    color: white;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+
+h1 {
+    writing-mode: vertical-rl; /* vertical right-to-left */
+        text-orientation: upright; /* upright orientation */
+        white-space: nowrap; /* prevents text from wrapping */
+        font-family: "Chakra Petch", sans-serif;
+        text-align: center;
+        font-size: large;
+        
+}
+.fa-phone,
+.fa-brands{
+   font-size:24px;
+    height: 20px;
+    z-index: 0;
+    display: inline-block;
+    margin-left: 5px;
+    padding: 15px;
+    padding-bottom: 15px;
+    animation: changeColor 5s infinite;
+    transition: all 0.3s
+}
+
+/*.aboutMe{
+background-color: black;
+color: white;
+width: 400px;
+position: absolute;
+right: 20px;
+height: 300px;
+border-radius: 50px;
+text-align: center;
+}*/
+
+
+  
+  .fa-phone:hover,
+  .fa-brands:hover {
+    cursor: pointer;
+    font-size: 30px;
+  }
+  
+  @keyframes changeColor {
+    0% {
+        /* Initial state */
+        opacity: 1;
+        filter: hue-rotate(0);
+    }
+    100% {
+        /* Final state */
+        opacity: 1;
+        filter: hue-rotate(360deg);
+    }
+  }
+
+
+.name {
+   height: 100vh;
+ color: red;
+  width: 100vh;
+  font-family: "Chakra Petch", sans-serif;
+  display: flex;
+justify-content: center;
+align-items: center;
+font-size:50px;
+font-weight:900;
+
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+

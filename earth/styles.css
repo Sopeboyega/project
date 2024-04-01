@@ -1,0 +1,56 @@
+.earth {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #2e6194; /* Dark blue for the oceans */
+    position: relative;
+    overflow: hidden;
+}
+
+.continent {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #3a5f32; /* Green for land masses */
+}
+
+.asia {
+    width: 70px;
+    height: 70px;
+    top: 20px;
+    left: 20px;
+}
+
+.africa {
+    width: 60px;
+    height: 60px;
+    top: 50px;
+    right: 30px;
+}
+
+.north-america {
+    width: 50px;
+    height: 50px;
+    top: 70px;
+    left: 50px;
+}
+
+.south-america {
+    width: 40px;
+    height: 40px;
+    top: 80px;
+    right: 20px;
+}
+
+.europe {
+    width: 45px;
+    height: 45px;
+    top: 30px;
+    left: 80px;
+}
+
+.australia {
+    width: 35px;
+    height: 35px;
+    top: 100px;
+    left: 120px;
+}

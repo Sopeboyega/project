@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border: solid;
+    border-radius: 10px;
+    background-color: pink;
+    color: black;
+    width: 550px;
+    height: 550px;
+    border-color: aqua;
+}
+
+table:hover{
+    box-shadow: 4px 4px 8px rgba(255,255,255,0.3);
+}
+th {
+    text-transform: capitalize;
+}
+
+tr {
+    width: 50px;
+    height: 50px;
+}
+td {
+    width: 70px;
+    height: 70px;
+}
+
